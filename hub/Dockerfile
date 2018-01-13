@@ -1,0 +1,5 @@
+ARG REPOSITORY=github/hub
+ARG VERSION=2.2.9
+ARG FILE_SHA256SUM=8d8660b7b34fb5d07238638f14aefe9ebb178a99199eb0229df93a52882d4419
+ENV FILE_URL https://github.com/${REPOSITORY}/releases/download/v${VERSION}/hub-linux-amd64-${VERSION}.tgz
+ENV TAG_STRIP v
