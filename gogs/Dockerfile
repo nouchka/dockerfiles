@@ -1,1 +1,1 @@
-FROM gogs/gogs:0.11.34
+FROM gogs/gogs:0.11.43
