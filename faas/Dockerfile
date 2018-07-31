@@ -1,0 +1,4 @@
+ARG REPOSITORY=openfaas/faas-cli
+ARG VERSION=0.6.15
+ARG FILE_SHA256SUM=310105bff076e5c70e76687481dd0167bb9e502b2be5f0ac07a7153012c0e0bd
+ENV FILE_URL https://github.com/${REPOSITORY}/releases/download/${VERSION}/faas-cli
